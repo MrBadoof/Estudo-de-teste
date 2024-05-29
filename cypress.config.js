@@ -7,6 +7,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     experimentalRunAllSpecs:true,
+    baseUrl: 'https://cypress-playground.s3.eu-central-1.amazonaws.com',
   },
   
 });
