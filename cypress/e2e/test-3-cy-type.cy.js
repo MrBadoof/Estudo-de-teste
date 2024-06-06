@@ -1,12 +1,14 @@
 /// <reference types="cypress" />
 
 describe('example to-do app', () => {
+  const text = 'Não fui eu, j';
+
   beforeEach(() => {
     cy.visit('/index.html');
   });
 
-  it('Realizar download de um arquivo e verificar seu conteudo', () => {
-    cy.get('#signature-textarea').type('Eu disse que esta aqui!');
-    cy.get('#signature').should('contain', 'Eu disse que esta aqui!');
+  it('Escrever texto em campo e verificar se ele foi destacado logo embaixo', () => {
+    cy.get('#signature-textarea').type(text);
+    cy.contains('em', text).should('be.visible');
   });
 });
