@@ -1,11 +1,9 @@
 {
-    "prettier.chainedCall": true,
-    "prettier.keepFunctionIndentation": true,
-    "prettier.singleQuote": true,
-    "prettier.trailingComma": "es5",
-    "prettier.printWidth": 90,
-    "prettier.arrowParens": "avoid",
-    "prettier.tabWidth": 4,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-    
-}
+    "singleQuote": true,
+    "trailingComma": "none",
+    "arrowParens": "avoid",
+    "endOfLine": "auto",
+    "printWidth": 80,
+    "tabWidth": 2,
+    "semi": true
+  }
