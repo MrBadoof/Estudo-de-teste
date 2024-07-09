@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('example to-do app', () => {
+describe('', () => {
   beforeEach(() => {
     cy.visit('/index.html');
   });

@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('example to-do app', () => {
+describe('', () => {
   const text = 'Não fui eu, j';
 
   beforeEach(() => {
